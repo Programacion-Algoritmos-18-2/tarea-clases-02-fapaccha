@@ -8,7 +8,7 @@ package tarea_clase_2;
  *
  * @author user
  */
-public class Tarea_Clase_2 {
+public class Principal {
 
     /**
      * @param args the command line arguments
@@ -17,7 +17,8 @@ public class Tarea_Clase_2 {
         // TODO code application logic here
         Precio p;
         p=new Precio();
-        System.out.println(p.euros);
+        p.agregar(20.2);
+        System.out.println(p.obtener());
     }
     
 }

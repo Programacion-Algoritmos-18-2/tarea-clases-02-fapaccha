@@ -3,18 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tarea_clase_2;
-
+package Principal_2;
 /**
  *
  * @author user
  */
 public class Precio {
-    private double euros;
+    double euros;
     public double obtener(){
-        return euros;
+        
     }
     public void agregar(double x){
-        euros=x;
+        
     }
+    
 }

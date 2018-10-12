@@ -3,8 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package tarea_clase_2;
-
+package Principal_3;
 /**
  *
  * @author user
@@ -16,5 +15,11 @@ public class Precio {
     }
     public void agregar(double x){
         euros=x;
+    }
+    public Precio (){
+        agregar(30.2);
+    }
+    public Precio (double y){
+        agregar(y);
     }
 }
