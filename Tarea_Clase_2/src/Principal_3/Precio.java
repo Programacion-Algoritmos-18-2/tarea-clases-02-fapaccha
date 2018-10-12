@@ -10,6 +10,7 @@ package Principal_3;
  */
 public class Precio {
     private double euros;
+    Precio n= new Precio();
     public double obtener(){
         return euros;
     }
@@ -22,4 +23,5 @@ public class Precio {
     public Precio (double y){
         agregar(y);
     }
+    
 }
